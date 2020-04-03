@@ -1,8 +1,9 @@
 /*
 colours we use: #005A9C, white , #FFCB05.
-author: Kanter Rosbag, Chris Guilliamse, Maarten Witteman, Sven Verroen and Stan de Rijk
+authors: Kanter Rosbag, Chris Guilliamse, Maarten Witteman, Sven Verroen and Stan de Rijk
 
 */
+
 * {
     padding: 0;
     margin: 0;
@@ -47,6 +48,12 @@ body{
     transition: 0,8s;
     padding-top: 60px;
     border-radius: 0px 50px 0px 0px;
+    /*animation*/
+    animation-name: navbarSlideIn;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
 }
 .sidemenu a{
     padding: 8px 8px 8px 32px;
@@ -94,4 +101,22 @@ body{
 .text{
     margin-left: 25%;
     display: flexbox;
+}
+
+/*Animations*/
+@keyframes navbarSlideIn{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 300px;
+    }
+}
+@keyframes navbarSlideOut{
+    0%{
+        width: 300px;
+    }
+    100%{
+        width: 0px;
+    }
 }
