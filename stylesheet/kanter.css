@@ -2,56 +2,6 @@
 colours we use: #005A9C, white , #FFCB05.
 author: Kanter Rosbag
 */
-body{
-    background-color:#005A9C ;
-}
-#open{
-    font-size: 30px;
-    cursor: pointer;
-    
-}
-.topmenu{
-    width:100%;
-    height:80px;
-    background-color: white;
-}
-.sidemenu {
-    height:100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color:#FFCB05;
-    overflow-x: hidden;
-    transition: 0,8s;
-    padding-top: 60px;
-}
-.sidemenu a{
-    padding: 8px 8px 8px 32px;
-    font-size: 25px;
-    color: #005A9C;
-    display:block;
-    transition: 0.5s;
-}
-.sidemenu a:hover {
-    color:#363636;
-}
-
-.sidemenu .closebutton {
-    position: absolute;
-    top:0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-
-@media screen and(max-height: 450px) {
-    .sidemenu {padding-top: 15;}
-    .sidemenu {font-size: 18px;}
-}
-
 
 #CoronaLogo {
     height: 300px;
