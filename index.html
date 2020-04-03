@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="stylesheet/kanter.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
 </head>
 <body>
-    <a href="./corona.html">Corona(beer)</a>
+    <div id="topmenu" class="topmenu">
+        <div id="sidemenu" class="sidemenu">
+            <a href="javascript/kanter.js" class="closebutton" onclick="closeMenu()">&times;</a>
+            <a href="">Home</a>
+            <a href="./corona.html">Corona(beer)</a>
+        </div>
+        <span  id="open" onclick="openMenu()">&#9776; Menu</span>
+    </div>
 </body>
+<script src="javascript/kanter.js"></script>
 </html>
