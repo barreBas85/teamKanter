@@ -5,6 +5,6 @@ function openMenu () {
 }
 function closeMenu () {
     document.getElementById("sidemenu").style.animationName = "navbarSlideOut";
-    document.getElementById("sidemenu").style.animationPlayState = "playing";
+    document.getElementById("sidemenu").style.animationPlayState = "running";
 }
 
