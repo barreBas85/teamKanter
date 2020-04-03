@@ -1,7 +1,7 @@
 /*
 colours we use: #005A9C, white , #FFCB05.
-Place here all the lines we need on most pages, else make a new css file and also include that in your HTML
-author: Kanter Rosbag, Chris Guilliamse
+author: Kanter Rosbag, Chris Guilliamse, Maarten Witteman, Sven Verroen and Stan de Rijk
+
 */
 @font-face {
     font-family: corona;
@@ -16,15 +16,29 @@ body{
     font-family: corona;
 
 }
+
 #open{
     font-size: 30px;
     cursor: pointer;
-    
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #005CD0;
+}
+
+
+
+#Logo{
+    margin:-55px 0px 0px 70px;
+    height:70px;
+    width:120px;
+    display: flex;
 }
 .topmenu{
     width:100%;
-    height:80px;
+    height:75px;
     background-color: white;
+    border-radius: 0px 0px 20px 0px;
 }
 .sidemenu {
     height:100%;
@@ -37,6 +51,7 @@ body{
     overflow-x: hidden;
     transition: 0,8s;
     padding-top: 60px;
+    border-radius: 0px 50px 0px 0px;
 }
 .sidemenu a{
     padding: 8px 8px 8px 32px;
