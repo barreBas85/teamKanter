@@ -3,13 +3,18 @@ colours we use: #005A9C, white , #FFCB05.
 Place here all the lines we need on most pages, else make a new css file and also include that in your HTML
 author: Kanter Rosbag, Chris Guilliamse
 */
-
+@font-face {
+    font-family: corona;
+    src: url("../fonts/zai_Smith-CoronaGalaxieTypewriter.otf") format("opentype");
+}
 * {
     padding: 0;
     margin: 0;
 }
 body{
     background-color:#005A9C ;
+    font-family: corona;
+
 }
 #open{
     font-size: 30px;
