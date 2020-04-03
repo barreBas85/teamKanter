@@ -58,3 +58,10 @@ body{
     .sidemenu {padding-top: 15;}
     .sidemenu {font-size: 18px;}
 }
+
+#CoronaLogo {
+    height: 300px;
+    width: 500px;
+    display: block;
+
+}
