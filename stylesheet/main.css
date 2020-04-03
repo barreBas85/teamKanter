@@ -1,5 +1,6 @@
 /*
 colours we use: #005A9C, white , #FFCB05.
+Place here all the lines we need on most pages, else make a new css file and also include that in your HTML
 author: Kanter Rosbag, Chris Guilliamse
 */
 
@@ -50,6 +51,7 @@ body{
     font-size: 36px;
     margin-left: 50px;
 }
+
 
 
 @media screen and(max-height: 450px) {
