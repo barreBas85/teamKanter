@@ -53,9 +53,11 @@ body{
     color: #005A9C;
     display:block;
     transition: 0.5s;
+    text-decoration: none;
 }
 .sidemenu a:hover {
     color:#363636;
+    font-size: 30px;
 }
 
 .sidemenu .closebutton {
@@ -73,8 +75,21 @@ body{
 }
 
 #CoronaLogo {
-    height: 300px;
-    width: 500px;
+    height: 250px;
+    width: 350px;
     display: block;
 
+}
+
+
+
+.pagetitle{
+    color:#FFCB05;
+}
+.firstalinea{
+    color:white;
+}
+.text{
+    margin-left: 25%;
+    display: flexbox;
 }
