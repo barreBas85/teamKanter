@@ -1,19 +1,43 @@
 /*author: Chris Guilliamse*/
 
-.landing-header-d{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+
+@media only screen and (min-width: 800px) {
+    /*DESKTOPS*/
+    
+    .landing-header-d{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    .landing-header-d h1{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 108px;
+    }
+    .landing-header-d p{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 32px;
+    }
+    .landing-header-d-subtext{
+        color: rgba(255, 255, 255, 0.404);
+    }
 }
-.landing-header-d h1{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 108px;
+
+@media only screen and (max-width: 800px) {
+    /*PHONES*/
+    
+    .landing-header-d{
+        text-align: center;
+    }
+    .landing-header-d h1{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 30pt;
+    }
+    .landing-header-d p{
+        font-family: 'Work Sans', sans-serif;
+    }
+    .landing-header-d-subtext{
+        color: rgba(255, 255, 255, 0.404);
+    }
 }
-.landing-header-d p{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 32px;
-}
-.landing-header-d-subtext{
-    color: rgba(255, 255, 255, 0.404);
-}
+
