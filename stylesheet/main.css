@@ -32,6 +32,7 @@ authors: Kanter Rosbag, Chris Guilliamse, Maarten Witteman, Sven Verroen and Sta
 body{
     background-color:#005A9C ;
     font-family: roboto, Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 #open{
@@ -68,7 +69,7 @@ body{
     overflow-x: hidden;
     transition: 0,8s;
     padding-top: 60px;
-    border-radius: 0px 50px 0px 0px;
+    border-radius: 0px 10px 0px 0px;
     /*animation*/
     animation-name: navbarSlideIn;
     animation-duration: 0.2s;
@@ -97,6 +98,13 @@ body{
     margin-left: 50px;
 }
 
+.sidemenu .closebutton:hover {
+    position: absolute;
+    top:0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
 
 
 @media screen and(max-height: 450px) {
@@ -118,7 +126,6 @@ body{
     font-family: robotoBold, Arial, Helvetica, sans-serif;
 }
 .firstalinea{
-    color:white;
 }
 .text{
     font-family: robotoThin, Arial, Helvetica, sans-serif;
