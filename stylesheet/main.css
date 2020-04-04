@@ -4,13 +4,34 @@ authors: Kanter Rosbag, Chris Guilliamse, Maarten Witteman, Sven Verroen and Sta
 
 */
 
+/*fonts*/
+@font-face{
+    font-family: robotoThin;
+    src: url("../fonts/Roboto/Roboto-Thin.ttf");
+}
+@font-face{
+    font-family: roboto;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face{
+    font-family: robotoLight;
+    src: url("../fonts/Roboto/Roboto-Light.ttf");
+}
+@font-face{
+    font-family: robotoBold;
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+/*--fonts--*/
+
+
 * {
     padding: 0;
     margin: 0;
 }
 body{
     background-color:#005A9C ;
-
+    font-family: roboto, Arial, Helvetica, sans-serif;
 }
 
 #open{
@@ -50,7 +71,7 @@ body{
     border-radius: 0px 50px 0px 0px;
     /*animation*/
     animation-name: navbarSlideIn;
-    animation-duration: 0.3s;
+    animation-duration: 0.2s;
     animation-iteration-count: 1;
     animation-play-state: paused;
     animation-fill-mode: forwards;
@@ -94,11 +115,13 @@ body{
 
 .pagetitle{
     color:#FFCB05;
+    font-family: robotoBold, Arial, Helvetica, sans-serif;
 }
 .firstalinea{
     color:white;
 }
 .text{
+    font-family: robotoThin, Arial, Helvetica, sans-serif;
     margin-left: 25%;
     display: flexbox;
 }
