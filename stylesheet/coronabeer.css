@@ -33,6 +33,7 @@ body{
     font-size: 18px;
     color: #005CD0;
     font-weight: 800;
+  
 }
 
 #artikel2{
@@ -43,11 +44,11 @@ body{
     background-color: #FFFFFF;
     padding: 150px 150px 150px 1300px;
     border-radius: 0px 50px 50px 0px;
-    font-family: robotoBold, Arial, Helvetica, sans-serif;
 }
 #USA{
     margin-left:-600px;
 }
 #USAtext{
     margin-left:-600px;
+    font-family: robotoThin, Arial, Helvetica, sans-serif;
 }
