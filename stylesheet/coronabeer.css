@@ -1,3 +1,7 @@
+body{
+    max-width: 8000px;
+}
+
 .Beerpictures{
     display:flex;
     width:690px;
@@ -8,14 +12,13 @@
     border-radius: 50px 50px 50px 50px;
 
 }
-.article{
-    margin-top: 200px;
-    width:900px;
+#artikel1{
+    margin-top: 100px;
+    width:862px;
     display:flex;
     background-color: #FFFFFF;
-    padding: 150px 1300px 150px 150px;
-    border-radius: 50px 50px 50px 50px;
-    display:block;
+    padding: 150px 870px 150px 150px;
+    border-radius:50px 0px 0px 50px;
 }
 .artikelheader{
     position: absolute;
@@ -27,27 +30,24 @@
     display: flex;
     margin-right: 0px;
     margin-left:0px;
-    flex-direction: row;
     font-size: 18px;
     color: #005CD0;
     font-weight: 800;
 }
-#prev{
-    cursor: pointer;
-    display: flex;
-    color:black;
-    margin-top: 110px;
-    margin-left: -125px;
-    font-size: 30px;
-    color:#005A9C;
+
+#artikel2{
+    margin-top: 320px;
+    margin-right: 300px;
+    width:200px;
+    display:flex;
+    background-color: #FFFFFF;
+    padding: 150px 150px 150px 1300px;
+    border-radius: 0px 50px 50px 0px;
+    font-family: robotoBold, Arial, Helvetica, sans-serif;
 }
-#next{
-    cursor: pointer;
-    display: flex;
-    color:black;
-    margin-top: 110px;
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 30px;
-    color:#005A9C;
+#USA{
+    margin-left:-600px;
+}
+#USAtext{
+    margin-left:-600px;
 }
