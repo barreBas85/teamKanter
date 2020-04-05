@@ -126,11 +126,21 @@ body{
     font-family: robotoBold, Arial, Helvetica, sans-serif;
 }
 .firstalinea{
+
 }
 .text{
     font-family: robotoThin, Arial, Helvetica, sans-serif;
     margin-left: 25%;
+    margin-right: 25%;
     display: flexbox;
+}
+
+/*No margin on text when on a phone / small screen*/
+@media only screen and (max-width: 800px) {
+    .text{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 /*Animations*/
