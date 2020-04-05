@@ -12,8 +12,18 @@ body{
     border-radius: 50px 50px 50px 50px;
 
 }
+.intro{
+
+}
+
+#CoronaLogo {
+    height: 250px;
+    width: 350px;
+    display: flex;
+}
 #artikel1{
-    margin-top: 100px;
+    margin-left:630px;
+    margin-top: 600px;
     width:862px;
     display:flex;
     background-color: #FFFFFF;
@@ -37,7 +47,7 @@ body{
 }
 
 #artikel2{
-    margin-top: 320px;
+    margin-top: 420px;
     margin-right: 300px;
     width:200px;
     display:flex;
