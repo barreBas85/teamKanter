@@ -82,12 +82,18 @@ body{
     font-size: 25px;
     color: #005A9C;
     display:block;
-    transition: 0.5s;
+    transition: 0.15s;
     text-decoration: none;
 }
 .sidemenu a:hover {
     color:#363636;
+    background-color: #0000001e;
+    font-size: 27px;
+}
+
+.sidemenu a:active {
     font-size: 30px;
+    background-color: #00000038;
 }
 
 .sidemenu .closebutton {
@@ -95,7 +101,7 @@ body{
     top:0;
     right: 25px;
     font-size: 36px;
-    margin-left: 50px;
+    padding-left: 9px;
 }
 
 .sidemenu .closebutton:hover {
@@ -103,7 +109,7 @@ body{
     top:0;
     right: 25px;
     font-size: 36px;
-    margin-left: 50px;
+
 }
 
 
@@ -126,7 +132,7 @@ body{
     font-family: robotoBold, Arial, Helvetica, sans-serif;
 }
 .firstalinea{
-
+    font-family: roboto;
 }
 .text{
     font-family: robotoThin, Arial, Helvetica, sans-serif;
