@@ -1,0 +1,205 @@
+.header {
+    text-align: center;
+    border-radius:50px 0px 0px 50px;
+    border: white;
+}
+
+.h1header {
+    padding: 50px 0px 30px 0px;
+    color: #FFCB05;
+    border-radius:50px 0px 0px 50px;
+    border: white;
+}
+
+.pheader {
+    padding-bottom: 50px;
+}
+
+#img1 {
+    display:flex;
+    width:690px;
+    height:430px;
+    margin-top:100px;
+    margin-left:1213px;
+    flex-direction: row;
+    border-radius: 50px 0px 0px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+colours we use: #005A9C, white , #FFCB05.
+authors: Kanter Rosbag, Chris Guilliamse, Maarten Witteman, Sven Verroen and Stan de Rijk
+
+*/
+
+/*fonts*/
+@font-face{
+    font-family: robotoThin;
+    src: url("../fonts/Roboto/Roboto-Thin.ttf");
+}
+@font-face{
+    font-family: roboto;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face{
+    font-family: robotoLight;
+    src: url("../fonts/Roboto/Roboto-Light.ttf");
+}
+@font-face{
+    font-family: robotoBold;
+    src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+/*--fonts--*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#005A9C ;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#open{
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #005CD0;
+}
+
+
+
+#Logo{
+    margin:-55px 0px 0px 70px;
+    height:70px;
+    width:120px;
+    display: flex;
+}
+.topmenu{
+    width:100%;
+    height:75px;
+    background-color: white;
+    border-radius: 0px 0px 10px 0px;
+}
+.sidemenu {
+    height:100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#FFCB05;
+    overflow-x: hidden;
+    transition: 0,8s;
+    padding-top: 60px;
+    border-radius: 0px 10px 0px 0px;
+    /*animation*/
+    animation-name: navbarSlideIn;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+.sidemenu a{
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    color: #005A9C;
+    display:block;
+    transition: 0.15s;
+    text-decoration: none;
+}
+.sidemenu a:hover {
+    color:#363636;
+    background-color: #0000001e;
+    font-size: 27px;
+}
+
+.sidemenu a:active {
+    font-size: 30px;
+    background-color: #00000038;
+}
+
+.sidemenu .closebutton {
+    position: absolute;
+    top:0;
+    right: 25px;
+    font-size: 36px;
+    padding-left: 9px;
+}
+
+.sidemenu .closebutton:hover {
+    position: absolute;
+    top:0;
+    right: 25px;
+    font-size: 36px;
+
+}
+
+
+@media screen and(max-height: 450px) {
+    .sidemenu {padding-top: 15;}
+    .sidemenu {font-size: 18px;}
+}
+
+#CoronaLogo {
+    height: 250px;
+    width: 350px;
+    display: block;
+
+}
+
+
+
+.pagetitle{
+    color:#FFCB05;
+    font-family: robotoBold, Arial, Helvetica, sans-serif;
+}
+.firstalinea{
+    font-family: roboto;
+}
+.text{
+    font-family: robotoThin, Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flexbox;
+}
+
+/*No margin on text when on a phone / small screen*/
+@media only screen and (max-width: 800px) {
+    .text{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/*Animations*/
+@keyframes navbarSlideIn{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 300px;
+    }
+}
+@keyframes navbarSlideOut{
+    0%{
+        width: 300px;
+    }
+    100%{
+        width: 0px;
+    }
+}
