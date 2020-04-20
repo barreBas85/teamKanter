@@ -144,7 +144,7 @@ body{
     font-family: roboto;
 }
 .text{
-    font-family: robotoThin, Arial, Helvetica, sans-serif;
+    font-family: robotoBold, Arial, Helvetica, sans-serif;
     margin-left: 25%;
     margin-right: 25%;
     display: flexbox;
