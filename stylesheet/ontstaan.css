@@ -1,3 +1,9 @@
+/*
+
+author: Sven Verroen
+
+*/
+
 .header {
     text-align: center;
     border-radius:50px 0px 0px 50px;
@@ -15,14 +21,13 @@
     padding-bottom: 50px;
 }
 
-#img1 {
-    display:flex;
-    width:690px;
-    height:430px;
-    margin-top:100px;
-    margin-left:1213px;
-    flex-direction: row;
-    border-radius: 50px 0px 0px 50px;
+.h2header {
+    padding-bottom: 20px;
+    color: #FFCB05;
+}
+
+body {
+    font-size: 16px;
 }
 
 
