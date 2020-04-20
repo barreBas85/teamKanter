@@ -1,64 +1,97 @@
-body{
-    max-width: 8000px;
+.artikel{
+    display: inline-block;
+    background-color:white;
+    color:#005A9C;
+    width:100%;
+    padding-right: 100%;
+    padding-bottom: 300px;
+    margin-bottom:500px;
+    margin-top: 200px;
+    
 }
-
 .Beerpictures{
+    position: relative;
     display:flex;
-    width:690px;
-    height:430px;
-    margin-top:-490px;
-    margin-left:1100px;
-    flex-direction: row;
-    border-radius: 50px 50px 50px 50px;
-
+    margin-top:-980px;
+    margin-left:1850px;
+    width:30%;
+    height:30%;
+    border-radius: 50px
 }
-.intro{
-
-}
-
-#CoronaLogo {
-    height: 250px;
-    width: 350px;
-    display: flex;
-}
-#artikel1{
-    margin-left:630px;
-    margin-top: 600px;
-    width:862px;
+#CoronaLogo{
     display:flex;
-    background-color: #FFFFFF;
-    padding: 150px 870px 150px 150px;
-    border-radius:50px 0px 0px 50px;
+    width:30%;
+    height:10%
 }
-.artikelheader{
-    position: absolute;
+
+#title{
+    margin-top:50px;
     color:#FFCB05;
-    font-family: robotoBold, Arial, Helvetica, sans-serif;
 }
-.artikeltext{
-    margin-top: 30px;
-    display: flex;
-    margin-right: 0px;
-    margin-left:0px;
-    font-size: 18px;
-    color: #005CD0;
-    font-weight: 800;
-  
+#text{
+    display:flex;
+    margin-right:-10%;
+    font-size:20px;
+}
+/*phone*/
+@media only screen and (max-width: 600px){
+    .artikel{
+        margin:auto;
+    }
+    #coronaLogo{
+        width:auto;
+        height:auto;
+    }
+    .Beerpictures{
+        border-radius:0px;
+        margin:auto;
+        max-width:100%;
+        max-height:55%;
+        width:auto;
+        height:auto;
+    }
+    #text{
+        font-size: 24px;
+        font-weight:boldest-available;
+    }
+}
+/*1080p*/
+@media only screen and (min-width:1920px){
+    .artikel{
+        display: inline-block;
+        background-color:white;
+        color:#005A9C;
+        width:100%;
+        padding-right: 100%;
+        padding-bottom: 300px;
+        margin-bottom:500px;
+        margin-top: 400px;
+        
+    }
+    .Beerpictures{
+        position: relative;
+        display:flex;
+        margin-top:-980px;
+        margin-left:1450px;
+        width:30%;
+        height:30%;
+        border-radius: 50px
+    }
+    #CoronaLogo{
+        display:flex;
+        margin-left:24%;
+        width:400px;
+        height:300px;
+    }
+    
+    #title{
+        margin-top:50px;
+        color:#FFCB05;
+    }
+    #text{
+        display:flex;
+        margin-right:-10%;
+        font-size:20px;
+    }
 }
 
-#artikel2{
-    margin-top: 420px;
-    margin-right: 300px;
-    width:200px;
-    display:flex;
-    background-color: #FFFFFF;
-    padding: 150px 150px 150px 1300px;
-    border-radius: 0px 50px 50px 0px;
-}
-#USA{
-    margin-left:-600px;
-}
-#USAtext{
-    margin-left:-600px;
-    font-family: robotoThin, Arial, Helvetica, sans-serif;
-}
