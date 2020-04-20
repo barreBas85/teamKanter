@@ -130,7 +130,12 @@ body{
 
 
 
-
+.header {
+    color:#FFCB05;
+    font-family: robotoBold, Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 .pagetitle{
     color:#FFCB05;
     font-family: robotoBold, Arial, Helvetica, sans-serif;
